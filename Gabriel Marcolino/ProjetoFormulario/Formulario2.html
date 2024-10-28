@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <style>
+        /* Estilo para o fundo da página */
+        body {
+            background-image: url('fundo.jpg'); /* Caminho da imagem local */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Estilos adicionais para o formulário */
+        form {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label, input, select, button {
+            display: block;
+            margin: 10px 0;
+            width: 20%;
+        }
+
+        button {
+            background-color: #0011ff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Formulário de Cadastro</h2>
+
+    <!-- Link para um vídeo educacional no YouTube -->
+    <p>Assista a este vídeo sobre educação:</p>
+    <a href="https://www.youtube.com/watch?v=2fngvQS_PmQ" target="_blank">
+        O poder da educação para transformar o mundo - TEDx
+    </a>
+
+    <br><br>
+
+    <form action="/enviar" method="post">
+        <!-- Nome Completo -->
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Telefone -->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <!-- Senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <!-- Data de Nascimento -->
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required>
+
+        <!-- Gênero -->
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <!-- Endereço -->
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <!-- Cidade -->
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+
+        <!-- Estado -->
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required>
+
+        <!-- CEP -->
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+
+        <!-- Botão Enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
