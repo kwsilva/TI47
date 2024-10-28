@@ -1,42 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Cadastro</title>
+    <title>Formulário de Cadastro Ti47</title>
     <style>
-        /* Estilo para o fundo da página */
         body {
-            background-image: url('fundo.jpg'); /* Caminho da imagem local */
-            background-size: cover;
-            background-attachment: fixed;
-            color: #fff;
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h2 {
             text-align: center;
+            color: #333;
         }
 
-        /* Estilos adicionais para o formulário */
         form {
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: #fff;
             padding: 20px;
-            border-radius: 8px;
+            width: 100%;
             max-width: 400px;
-            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
         }
 
-        label, input, select, button {
+        label {
             display: block;
-            margin: 10px 0;
-            width: 20%;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
         }
 
         button {
-            background-color: #4CAF50;
-            color: white;
+            width: 100%;
             padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
             cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
         }
 
         button:hover {
@@ -44,40 +68,26 @@
         }
     </style>
 </head>
+
 <body>
-
-    <h2>Formulário de Cadastro</h2>
-
-    <!-- Link para um vídeo educacional no YouTube -->
-    <p>Assista a este vídeo sobre educação:</p>
-    <a href="https://www.youtube.com/watch?v=2fngvQS_PmQ" target="_blank">
-        O poder da educação para transformar o mundo - TEDx
-    </a>
-
-    <br><br>
-
     <form action="/enviar" method="post">
-        <!-- Nome Completo -->
+        <h2>Formulário de Cadastro</h2>
+
         <label for="nome">Nome Completo:</label>
         <input type="text" id="nome" name="nome" required>
 
-        <!-- Email -->
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
-        <!-- Telefone -->
         <label for="telefone">Telefone:</label>
         <input type="tel" id="telefone" name="telefone" required>
 
-        <!-- Senha -->
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" required>
 
-        <!-- Data de Nascimento -->
         <label for="data_nascimento">Data de Nascimento:</label>
         <input type="date" id="data_nascimento" name="data_nascimento" required>
 
-        <!-- Gênero -->
         <label for="genero">Gênero:</label>
         <select id="genero" name="genero" required>
             <option value="masculino">Masculino</option>
@@ -85,25 +95,20 @@
             <option value="outro">Outro</option>
         </select>
 
-        <!-- Endereço -->
         <label for="endereco">Endereço:</label>
         <input type="text" id="endereco" name="endereco" required>
 
-        <!-- Cidade -->
         <label for="cidade">Cidade:</label>
         <input type="text" id="cidade" name="cidade" required>
 
-        <!-- Estado -->
         <label for="estado">Estado:</label>
         <input type="text" id="estado" name="estado" required>
 
-        <!-- CEP -->
         <label for="cep">CEP:</label>
         <input type="text" id="cep" name="cep" required>
 
-        <!-- Botão Enviar -->
         <button type="submit">Enviar</button>
     </form>
-
 </body>
+
 </html>
