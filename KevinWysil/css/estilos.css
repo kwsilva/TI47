@@ -1,0 +1,42 @@
+h1 {
+    font-size: 2.5em; /* 70px/16=2.5em */ ;
+    font-family: "Times New Roman" ;
+    color:darkred ;
+    text-align: center;
+    border-style: ridge
+  }
+
+ h2 {font-size: font-size: 14px ;
+    font-family: "Times New Roman" ;
+    text-align: center;
+    
+
+ } 
+h3 {font-size: 2.5em; /* 60px/16=2.5em */ ;
+    font-family: "Courier New" ;
+    color:darkblue ;
+    text-align: center;
+    border-style: ridge
+
+    
+   
+}
+
+p
+{border-style: double ;
+
+
+}
+body{text-align: center;
+    background-color: lightgrey;
+
+    border-style: solid
+}  
+
+
+
+    
+
+
+
+
