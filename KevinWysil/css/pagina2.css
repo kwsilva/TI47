@@ -1,0 +1,53 @@
+h1 {
+    font-size: 2.5em; /* 70px/16=2.5em */ ;
+    font-family: "Times New Roman" ;
+    color:darkred ;
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    background:rgba(235, 233, 150, 0.849) /* Green background with 30% opacity */
+  }
+
+ h2 {font-size: font-size: 14px ;
+    font-family: "Times New Roman" ;
+    text-align: center;
+    } 
+h3 {font-size: 2.5em; /* 60px/16=2.5em */ ;
+    font-family: "Courier New" ;
+    color:darkblue ;
+    text-align: center;
+    border-style: ridge;
+    }
+p{font: size 30px; /* 40px/14=2.5em */ ;
+    font-family: "Courier New" ;
+    color:black ;
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    background-color:lavender;
+    background:rgba(219, 231, 151, 0.884)
+    
+}
+
+
+body {text-align: center;
+    background-image: url("IMAGENS/RR.jfif");
+border-style: solid;
+
+;
+}  
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
