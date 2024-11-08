@@ -1,14 +1,12 @@
 h1 {
-    font-size: 1.5em; /* 40px/16=2.5em */ ;
+    font-size: 1.5em; /* 70px/16=2.5em */ ;
     font-family: "Times New Roman" ;
     color:darkred ;
     text-align: center;
     border-style: ridge;
     border-color: black;
-    background:rgba(182, 158, 248, 0.884) /* Green background with 30% opacity */
+    background:rgba(228, 167, 87, 0.884) /* Green background with 30% opacity */
   }
-  img{border-style: ridge;
-    border-color: black;}
 
  h2 {font-size: font-size: 14px ;
     font-family: "Times New Roman" ;
@@ -27,15 +25,14 @@ p{font: size 30px; /* 40px/14=2.5em */ ;
     border-style: ridge;
     border-color: black;
     background-color:lavender;
-    background:rgba(171, 146, 240, 0.884)
+    background:rgba(228, 167, 87, 0.884)
     
 }
 
 
 body {text-align: center;
-    background-image: url("IMAGENS/mewtwo4.jfif");
+    background-image: url("IMAGENS/entei.jfif");
 border-style: solid;
-
 
 ;
 }  
@@ -53,16 +50,5 @@ video {
     width: 100%;
     height: auto;
     display: block;
-}
-
-
-.galeria-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
-    gap: 10px; /* Espaçamento entre as imagens */
-}
-.galeria-grid img {
-    width: 100%; /* As imagens irão preencher a largura da célula */
-    border-radius: 8px; /* Borda arredondada */
 }
 
